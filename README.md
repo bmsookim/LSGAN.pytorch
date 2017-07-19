@@ -5,7 +5,9 @@ Repository for Pytorch Implementation of Least Squares Generative Adversarial Ne
 
 ## Least Squares Generative Adversarial Networks
 
-Regular GANs hypothesize the discriminator as a classifier with the sigmoid cross entropy loss function. This loss function, however, may lead to the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) during the learning process.
+Regular GANs hypothesize the discriminator as a classifier with the sigmoid cross entropy loss function.
+
+This loss function, however, may lead to the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) during the learning process.
 
 LSGANs(Least Squares GAN) adopt the least squares loss function for the discriminator.
 
@@ -13,3 +15,7 @@ The paper shows that the objective function for LSGAN yields minimizing the [Pea
 
 ![alt_tag](./imgs/objective_graph.png)
 ![alt_tag](./imgs/objective.png)
+
+## Basic Setups
+
+## How to run
